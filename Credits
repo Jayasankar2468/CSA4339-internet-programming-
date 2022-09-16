@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var number1 = window.prompt( "Please Enter your account Number", "0" );
+var number2 = window.prompt( "What was your balance at the beginning of the month?", "0" );
+var number3 = window.prompt( "How much did you spend this month?", "0" );
+var number4 = window.prompt( "How much did you spend on payments this month?", "0" );
+var number5 = window.prompt( "What was your approved store credit limit?", "0" );
+
+document.write(" Account Number = "+(number1)+"<br>");
+document.write(" Balance at the beginning of the month = "+(number2)+"<br>");
+document.write(" Total spent by you this month = "+(number3)+"<br>");
+document.write(" Total amount you have paid this month = "+(number4)+"<br>");
+document.write(" Your approved Store credit limit = "+(number5)+"<br>");
+document.write(" Your current balance = "+(number2 + number3 - number4)+"<br>");
+
+</script>
+
+</body>
+</html> //day 2(2)
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body  {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrVynMPENfhMaSMKOv2APkwqmgmZvoYC7AxcdumBJWLrzA61w&s") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height:50vh;
+  color:red;
+}
+</style>
+</head>
+<body>
+
+<h1>The background-attachment Property</h1>
+
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>If you do not see any scrollbars, try to resize the browser window.</p>
+
+</body>
+</html> //day1(3)
+<html>
+    <head><title>Campus Visit</title>
+    </head>
+    <body>
+        <form name="std_details"method="post">
+            <label>Name:</label>
+            <input type="text"size="50"><br>
+            <br><br>
+            <label>address </label>
+            <textarea height="5" width="50"></textarea>
+            <br><br>
+            <label> Email</label>
+            <input type="email"/><br><br>
+            what are thr things that you like:<br><br>
+            <ul>
+                    <li><input type="checkbox"name="camp">campus</li>
+                    <li><input type="checkbox"name="camp">location</li>
+                    <li><input type="checkbox"name="camp">student</li>
+                    <li><input type="checkbox"name="camp">atmosphere</li>
+                    <li><input type="checkbox"name="camp">dorm room</li>
+                    <li><input type="checkbox"name="camp">sport</li>
+                    </ul><br>
+                    how to become intrested in university <br><br>
+                    <ul>
+                        <li><input type="radio"name="iu">Friends</li>
+                        <li> <input type="radio" name="iu">television</li>
+                        <li><input type="radio" name="iu">internet</li>
+                        <li><input type="radio"name="iu">others</li>
+                    </ul>
+                    <br>
+                    comment <br><br>
+                    <textarea height="5" width="50">
+                    </textarea><br>
+                    <button>submit</button>
+                    </form>
+    </body>
+</html> //day 1(1)
+?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Mileage</title>
+<script type="text/javascript">
+<!--
+var g1;
+var m1;
+var a1;
+var a2;
+var a3;
+var g2;
+var m2;
+var g3;
+var m3;
+var avgall;
+g1 = window.prompt("Enter Number of Gallons used for Tank1:");
+m1 = window.prompt("Enter number of miles drived for Tank1:");
+g2 = window.prompt("Enter Number of Gallons used for Tank2:");
+m2 = window.prompt("Enter number of miles drived for Tank2:");
+g3 = window.prompt("Enter Number of Gallons used for Tank3:");
+m3 = window.prompt("Enter number of miles drived for Tank3:");
+a1 = parseInt(m1) / parseInt(g1);
+a2 = parseInt(m2) / parseInt(g2);
+a3 = parseInt(m3) / parseInt(g3);
+avgall = ((parseInt(m1) + parseInt(m2) + parseInt(m3)) / (parseInt(g1) + parseInt(g2) + parseInt(g3)));
+document.writeln( "<h1> Miles per Gallon for Tank1 is: " + a1 + "</h1>" );
+document.writeln( "<h1> Miles per Gallon for Tank2 is: " + a2 + "</h1>" );
+document.writeln( "<h1> Miles per Gallon for Tank3 is: " + a3 + "</h1>" );
+document.writeln( "<h1> Combined Miles per Gallon for all Tank is: " + avgall + "</h1>" );
+// -->
+</script>
+</head>
+<body>
+<h1><center>Mileage Calculation</center>
+<hr />
+<p> Click Refresh(F5) or reload to run this script again</p>
+</body>
+</html> //day2(1)
+<html>
+    <head>
+        <title>My Profile</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>space for image</td>
+                <td>
+                    <h3> senior web developer</h3>:speciliazation in front end development <br>
+                    experienced with all stages of development cycle for dynamic with web projects <br>
+                    well versed in numerious programming languages includinh PHP,HTML,CSS,Python <br>
+                    strong background in project managment and customer relations. 
+                </td>
+            <tr>
+                <td><h1>jp</h1></td>
+            <tr>
+                <td>phone no: <br>
+                123644226 <br>
+            e-mail: <br>
+        jp100@gmail.com <br>
+    linked in: <br>
+jp_099 <br>
+<h3>KILL HIGHLIGHTS</h3> <br>
+<ul>
+    <li>Skill HIGHLIGHTS</li>
+    <li>project management</li>
+    <li>strong declision</li>
+    <li>creative design</li>
+    <li>service focused</li>
+    <li>innovation</li>
+    <li>complex problem slover</li>
+</ul>
+<h3>languages</h3> <br>
+telugu <br>
+engilish <br>
+hindi <br>
+<td>
+    <h3>experience</h3>
+    <ul>
+        <li>cooperte with design to create clean interface and simple and experience</li>
+        <li>develop the given concept</li>   
+        <li>work harder</li>     
+    </ul>
+    <h3>education</h3> <br>
+    b tech in computer science engineering  <br>
+    <h3>certificationds</h3><br>
+    in python <br>
+    <h3>references</h3> <br>
+    references available on request
+</td>
+            
+    </body>
+</html> //day1 (1)
+<html>
+<head>
+<title>Pay Day </title>
+<script type="text/javascript">
+<!--
+var e1;
+var r1;
+var e2;
+var r2;
+var e3;
+var r3;
+e1 = window.prompt("Enter Number of Hours Employee1 worked last week:");
+r1 = window.prompt("Enter hourly wage rate for Employee1:");
+e2 = window.prompt("Enter Number of Hours Employee2 worked last week:");
+r2 = window.prompt("Enter hourly wage rate for Employee2:");
+e3 = window.prompt("Enter Number of Hours Employee3 worked last week:");
+r3 = window.prompt("Enter hourly wage rate for Employee3:");
+var cal1;
+if(parseInt(e1)>40)
+{
+var extrahours = parseInt(parseInt(e1)-40);
+var extrarate= parseInt(r1) + (parseInt(r1) / 2 );
+cal1= ((40 * parseInt(r1))+ (extrahours * parseInt(extrarate)));
+}
+else
+{
+cal1=parseInt(e1) * parseInt(r1);
+}
+document.writeln( "<h1> Employee1 Gross Wage is: " + cal1 + "</h1>" );
+var cal2;
+if(parseInt(e2)>40)
+{
+var extrahours1 = parseInt(parseInt(e2)-40);
+var extrarate1= parseInt(r2) + (parseInt(r2) / 2 );
+cal2= ((40 * parseInt(r2))+ (extrahours1 * parseInt(extrarate1)));
+}
+else
+{
+cal2=parseInt(e2) * parseInt(r2);
+}
+document.writeln( "<h1> Employee2 Gross Wage is: " + cal2 + "</h1>" );
+var cal3;
+if(parseInt(e3)>40)
+{
+var extrahours2 = parseInt(parseInt(e3)-40);
+var extrarate2= parseInt(r3) + (parseInt(r3) / 2 );
+cal3= ((40 * parseInt(r3))+ (extrahours2 * parseInt(extrarate2)));
+}
+else
+{
+cal3=parseInt(e3) * parseInt(r3);
+}
+document.writeln( "<h1> Employee3 Gross Wage is: " + cal3+ "</h1>" );
+// -->
+</script>
+</head>
+<body>
+<h1><center>Pay Day</center>
+<hr />
+<p> Click Refresh(F5) or reload to run this script again</p>
+</body>
+</html> //day2(3)
+<html>
+  <head>
+     <title>Parking garage charges</title>
+     <meta  charset="utf-8">
+     <script type="text/javascript" >
+		var currentCustomer = 0;
+		var totalCharges = 0;
+          function calculate_Charges(hrs){
+			var charges = 2; //$2.00 minimum fee to park for up to three hours
+			if (hrs > 3)
+				charges += Math.ceil(hrs - 3) * 0.5; //The garage charges an additional $0.50 per hour for each hour or part thereof in excess of three hours.
+			if (charges > 10) //The maximum charge for any given 24-hour period is $10.00
+				charges = 10;
+			totalCharges += charges;
+			return charges;
+          }
+		  function doCalculation(){
+				var hrsParked = parseFloat(document.getElementById("hrsParked").value);
+				var charges = calculate_Charges(hrsParked);
+				document.getElementById("charges").value = charges;
+		  }
+	
+	function calculateChargesForOneCustomer() // Create a new payroll function
+	{
+		currentCustomer++;
+		var hrsParked = parseFloat(prompt("Please enter the hours parked for customer: ", ""));
+		var charges = calculate_Charges(hrsParked);
+		
+		//e. Print results.
+		document.write("<tr><td>Customer " + currentCustomer + "</td><td align='right'>" + hrsParked + "</td><td align='right'>" + charges.toString() + "</td></tr>");
+	}
+
+	function inputData() // Create a new payroll function
+	{
+		//Repeat until all Customer are added.
+		document.write("<table><th>Customer</th><th>Hours Parked</th><th>Charges</th>");
+		var addCustomer = 'Y';
+		while (addCustomer == "Y")
+		{
+			calculateChargesForOneCustomer()
+			addCustomer = prompt("Add a Customer? ", "Y");
+		}
+		document.write("<tr><td/><td/><td align='right'><b>$" + totalCharges.toString() + "</b></td></tr>");
+		document.write("</table>");
+	}
+     </script>     
+</head>
+<body onload="inputData();">
+  <h1> Welcome to the program to calculate the parking garage charges</h1>
+  <hr>
+  <p>
+  Hours parked:<input type="text" id="hrsParked"><br>
+  Charges:<input type="text" id="charges"><br>
+	</p>
+  <button onclick="doCalculation()">Capture the Charges</button>
+</body>
+</html> //day3(1)
+<html>
+<head> <style>
+.flag {
+  width: 300px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.italy-flag {
+  width: 100%;
+  padding-bottom: 66.667%;
+  background-color: #F1F2F1;
+  position: relative;
+  margin: 0;
+}
+
+.italy-flag::before {
+  content: ' ';
+  position: absolute;
+  background-color: #009246;
+  width: 33.33%;
+  height: 100%;
+}
+
+.italy-flag::after {
+  content: ' ';
+  position: absolute;
+  background-color:  	#CE2B37;
+  width: 33.33%;
+  height: 100%;
+  right: 0;
+}
+</style>
+</head>
+
+<body>
+<div class="flag">
+  <section role="region" aria-hidden="true" class="italy-flag">
+  </section>
+</div>
+
+
+</body>
+</html> // italain flag
+<html>
+<head>
+<title> Mail Order </title>
+<script type="text/javascript">
+<!--
+var q;
+var p;
+var qty;
+var price;
+var pno=0;
+var ans=0;
+var counter=0;
+total=0;
+document.write("Enter product number for an item, -1 to quit: <br /> 1. Product-1 <br /> 2. Product-2 <br /> 3. product-3 <br /> 4. Product-4 <br /> 5. Product-5");
+pno=window.prompt("Enter product number, -1 to Quit");
+p=parseInt(pno);
+while(pno!=-1)
+{
+switch(p)
+{
+case 1: price= 2.98;
+q= window.prompt("Enter number of quantities sold for product-1:");
+qty=parseInt(q);
+ans=price*qty;
+break;
+case 2: price= 4.50;
+q= window.prompt("Enter number of quantities sold for product-2:");
+qty=parseInt(q);
+ans=price*qty;
+break;
+case 3: price= 9.98;
+q= window.prompt("Enter number of quantities sold for product-3:");
+qty=parseInt(q);
+ans=price*qty;
+break;
+case 4: price= 4.49;
+q= window.prompt("Enter number of quantities sold for product-4:");
+qty=parseInt(q);
+ans=price*qty;
+break;
+case 5: price= 6.87;
+q= window.prompt("Enter number of quantities sold for product-5:");
+qty=parseInt(q);
+ans=price*qty;
+break;
+default: window.alert("No proper input, Please try Again");
+break;
+}
+counter=counter+1;
+total=total + parseInt(ans);
+pno=window.prompt("Enter product number, -1 to Quit");
+p=parseInt(pno);
+}
+if(counter!=0)
+{
+document.writeln( "<h1> Total Sales for Last week is: $" + total + "</h1>" );
+}
+else
+{
+window.alert("No product number is entered, Thank you");
+}
+// -->
+</script>
+</head>
+<body>
+<h1>Mail Order</h1>
+<hr />
+
+<p>Press F5 or Refresh to load script again.</p>
+
+</body>
+</html> // day2(6)
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Solution 11.2</title>
+		<script type = "text/javascript">
+			function printNow()
+			{
+				var curr = new Date();
+				window.alert("The time and date are: " + curr.toString());
+			}
+ 
+			function printYesterday() 
+			{
+				var yesterday = new Date();
+				yesterday.setTime(yesterday.valueOf() - 24 * 60 * 60 * 1000);
+				window.alert("24 hours age, the time and date were: " + yesterday.toString());
+			}
+ 
+			function printTenYears()
+			{	
+				var tenYears = new Date();
+				tenYears.setTime(tenYears.valueOf() - 10 * 365 * 24 * 60 * 60 * 1000);
+				window.alert("10 years ago, the time and date were: " + tenYears.toString());
+			}
+ 
+			function printOneWeek()
+			{	
+				var oneWeek = new Date();
+				oneWeek.setTime(oneWeek.valueOf() + 7 * 24 * 60 * 60 * 1000);
+				window.alert("In one week, the time and date will be: " + oneWeek.toString());
+			}
+		</script>
+	</head>
+ 
+	<body>
+		<form action = "">
+		<div>
+			<input type="button" value="Now" onclick="printNow()" />
+			<input type="button" value="Yesterday" onclick="printYesterday()" />
+			<input type="button" value="Ten Years Ago" onclick="printTenYears()" />
+			<input type="button" value="In One Week" onclick="printOneWeek()" />
+		</div>
+		</form>
+	</body>
+ 
+</html> //day3(4)
+<html>
+	<head>
+	<title>Assignment 2-12 </title>
+	<!-- QUESTION 12 : A company wants to transmit data over the telephone, but it is concerned that its phones may be tapped. All of its data is transmitted as four-digit integers. It has asked you to write a program that will encrypt its data so that the data may be transmitted more securely. Your script should read a four-digit integer entered by the user in a prompt dialog and encrypt it as follows: Replace each digit by (the sum of that digit plus 7) modulus 10. Then swap the first digit with the third, and swap the second digit with the fourth. Then output text that displays the encrypted integer. Once this is done, write a program that inputs an encrypted four-digit integer and decrypts it to form the original number.-->
+
+	<script type="text/javascript">
+	
+
+	function EncryptNumber()
+	{
+		var digit1;
+		var digit2;
+		var digit3;
+		var digit4;
+		var inputString;
+
+		// Ask user to enter 4 digit to be encrypted
+		inputString = prompt("Please enter a 4 digit number");
+
+		var number = parseInt(inputString);
+
+		digit1 = parseInt((number / 1000 + 7) % 10);
+		digit2 = parseInt((number % 1000 / 100 + 7) % 10);
+		digit3 = parseInt((number % 1000 % 100 / 10 + 7) % 10);
+		digit4 = parseInt((number % 1000 % 100 / 10 + 7) % 10);
+
+		var encryptedNum;
+		encryptedNum = "The encrypted number is " + digit1 + digit2 + digit3 + digit4;
+
+		document.write("<br>" + encryptedNum);
+
+	}
+
+	function DecryptNumber()
+	{
+		var inputString;
+
+		inputString = prompt("Please enter a 4 digit number");
+
+		var number = inputString;
+		var digit1;
+		var digit2;
+		var digit3;
+		var digit4;
+
+		digit1 = parseInt(number / 1000);
+		digit2 = parseInt(number % 1000 / 100);
+		digit3 = parseInt(number % 1000 % 100 / 10);
+		digit3 = parseInt(number % 1000 % 100 % 10);
+		
+		var temp = parseInt((digit1 + 3) % 10);
+		digit1 = parseInt((digit3 + 3) % 10);
+		digit3 = temp;
+		temp = parseInt((digit2 + 3) % 10);
+		digit2 = parseInt((digit4 + 3) % 10);
+		digit4 = temp;
+		
+		var decryptedNumber = digit1 * 1000 + digit2 * 100 + digit3 * 10 + digit4;
+		document.write("The decrypted number is" + decryptedNumber ;
+	}
+
+	</script>
+	</head>
+
+
+	<body>
+		<input type="button" value="Encrypt number" onclick="EncryptNumber()">
+
+		<input type="button" value="Decrypt number" onclick="DecryptNumber()">
+	</body>
+		
+
+</html> // day2(4)
